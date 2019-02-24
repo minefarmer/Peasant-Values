@@ -9,31 +9,37 @@
 <body style="background-color:burlywood">
   <h1 style="text-align:center">Arrow Functions</h1>
 <script>
-  const names = ['rich', 'mitch', 'larry'];
+  // const names = ['rich', 'mitch', 'larry'];
 
-  const fullNames = names.map(function(name){
-    return `${name} matson`;
-  });
+  // const fullNames = names.map(function(name){
+  //   return `${name} matson`;
+  // });
 
-  const fullNames2 = names.map((name) => {
-    return `${name} matson`;
-  });
+  // const fullNames2 = names.map((name) => {
+  //   return `${name} matson`;
+  // });
   
-  const fullNames3 = names.map(name => {
-    return `${name} matson`;
-  });
+  // const fullNames3 = names.map(name => {
+  //   return `${name} matson`;
+  // });
 
-  const fullNames4 = names.map(name => `${name} matson`);
+  // const fullNames4 = names.map(name => `${name} matson`);
   
-  const fullNames5 = names.map(() => `cool matson`);
+  // const fullNames5 = names.map(() => `cool matson`);
 
-  const sayMyName = (name) => { alert(`Hello ${name}!`)}
+  // const sayMyName = (name) => { alert(`Hello ${name}!`)}
 
-  sayMyName('Rich');
+  // sayMyName('Rich');
 
+const race ='100m Dash';
+const winners = ['Hunter Gath', 'Singa Song', 'Imda Bos'];
 
+let win = winners.map((winner, i) => ({name: winner, race: race, place: i + 1}))
 
- 
+const ages = [23,62,45,234,2,62,234,62,34];
+
+const old = ages.filter(age => age >= 60);
+ console.log(old);
 
 </script>
 </body>
