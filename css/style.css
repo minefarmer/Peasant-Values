@@ -1,0 +1,87 @@
+body{
+  background-color: rgb(233, 231, 248);
+  font-size: 20px;
+  text-align: center;
+}
+
+#width{
+  width: 40%;
+  transition-delay: 2s;
+}
+
+#width:hover{
+  width: 80%;
+}
+
+h3, h4{
+  margin: 20px 30%;
+  background-color: lightblue;
+  border-radius: 10rem;
+}
+
+p{
+  padding: 10px;
+}
+
+hr{border: 1px solid yellowgreen;}
+
+ol{
+  color: green;
+  font-size: 4rem;
+}
+
+.soar{font-size: 2em;}
+
+.siteh1 {
+  color: blue;
+  font-size: 3em;
+  text-align: center;
+  border: 4px dotted red;
+}
+.sitediv {
+  color:rgb(10, 100, 70);
+  font-size: 1.5em;
+  text-align: center;
+}
+h1::first-letter{
+  font-size: 70px;
+  font-style: italic;
+  color: goldenrod;
+}
+
+h1::before{
+  content: "This is A ";
+  color: green;
+  font-size: 50%;
+}
+
+h1::after{
+  content: " Website";
+  color: green;
+  font-size: 50%;
+}
+
+.overflow{
+  width: 40%;
+  height: 400px;
+  color: black;
+  margin: 20px auto;
+  margin-bottom: 100px;
+  border: 5px solid green;
+  background-color: white;
+  overflow: scroll;
+}
+
+/* NEW WEBSITE ABOVE THIS POINT */
+
+
+
+
+
+
+
+
+
+
+
+
