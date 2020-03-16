@@ -2,6 +2,9 @@ body{
   background-color: rgb(233, 231, 248);
   font-size: 20px;
   text-align: center;
+  margin: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #width{
@@ -28,6 +31,8 @@ hr{border: 1px solid yellowgreen;}
 ol{
   color: green;
   font-size: 4rem;
+  width: 80%;
+  text-align: center;
 }
 
 .soar{font-size: 2em;}
